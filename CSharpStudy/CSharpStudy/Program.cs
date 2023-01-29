@@ -129,30 +129,43 @@ namespace CSharpStudy {
                         string name;
                         name = Console.ReadLine();
                         Console.WriteLine(name.Length);*/
+            /*
+                        int[] arr1 = new int[5];
+                        int[] arr2 = new int[5];
+                        int[] arr3 = new int[5];
+                        int[] arr4 = new int[5];
+                        int[] arr5 = new int[5];
 
-            int[] arr1 = new int[5];
-            int[] arr2 = new int[5];
-            int[] arr3 = new int[5];
-            int[] arr4 = new int[5];
-            int[] arr5 = new int[5];
+                        string[] str1 = new string[5];
+                        string[] str2 = new string[5];
+                        string[] str3 = new string[5];
+                        string[] str4 = new string[5];
+                        string[] str5 = new string[5];
 
-            string[] str1 = new string[5];
-            string[] str2 = new string[5];
-            string[] str3 = new string[5];
-            string[] str4 = new string[5];
-            string[] str5 = new string[5];
+                        int[] LaterArray;
 
-            int[] LaterArray;
+                        Console.WriteLine("배열의 크키는?");
+                        int ArraySize = int.Parse(Console.ReadLine());
+                        LaterArray = new int[ArraySize];
 
-            Console.WriteLine("배열의 크키는?");
-            int ArraySize = int.Parse(Console.ReadLine());
-            LaterArray = new int[ArraySize];
+                        string[] _lang = new string[3];
+                        _lang[0] = "C";
+                        _lang[1] = "C++";
+                        _lang[2] = "C#";*/
 
-            string[] _lang = new string[3];
-            _lang[0] = "C";
-            _lang[1] = "C++";
-            _lang[2] = "C#";
+            //식당에 음식이 떡볶이, 김밥, 라면, 라뽁이가 있다.
+            //이중에 숫자를 입력받으면
+            //입력받은 값은 비어있게 된다.
+            //최초 음식들과
+            //숫자를 입력받았을때 음식을 출력하고
+            //비어있게 되었다라는 결과값도 출력하라
 
+            string[] food = new string[] { "떡복이", "김밥", "라면", "라뽁이" };
+
+            Console.WriteLine("1번: 떡복이, 2번: 김밥, 3번: 라면, 4번: 라뽁이");
+            int input = int.Parse(Console.ReadLine());
+            food[input - 1] = "";
+            Console.WriteLine($"1번: {food[0]}, 2번: {food[1]}, 3번: {food[2]}, 4번: {food[3]}");
         }
     }
 }
