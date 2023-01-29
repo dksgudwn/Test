@@ -165,7 +165,13 @@ namespace CSharpStudy {
             Console.WriteLine("1번: 떡복이, 2번: 김밥, 3번: 라면, 4번: 라뽁이");
             int input = int.Parse(Console.ReadLine());
             food[input - 1] = "";
-            Console.WriteLine($"1번: {food[0]}, 2번: {food[1]}, 3번: {food[2]}, 4번: {food[3]}");
+            Console.WriteLine("음식5 입력");
+            food[4] = Console.ReadLine();
+            Console.WriteLine("음식6 입력");
+            food[5] = Console.ReadLine();
+            Console.WriteLine("음식7 입력");
+            food[6] = Console.ReadLine();
+            Console.WriteLine($"1번: {food[0]}, 2번: {food[1]}, 3번: {food[2]}, 4번: {food[3]}, 5번: {food[4]}, 6번: {food[5]}, 7번: {food[6]}");
         }
     }
 }
