@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CSharpStudy {
     class Program {
@@ -185,6 +181,188 @@ namespace CSharpStudy {
             Console.WriteLine($"{info}");
             Console.WriteLine(@"ㅁ");
             string[] arr = new string[] { name, year, info };*/
+
+
+            /*
+                        int number11 = 123;
+                        int number21 = 532;
+                        number21 += number11;
+                        Console.WriteLine(number21);
+
+                        int value = 0;
+                        Console.WriteLine(value++);
+                        Console.WriteLine(value);
+                        Console.WriteLine(++value);
+                        Console.WriteLine(value);
+                        Console.WriteLine(value++);
+                        Console.WriteLine(value);
+                        Console.WriteLine(++value);
+                        Console.WriteLine(value);*/
+
+
+
+            /*bool isTrue = true;
+            bool isFalse = false;
+
+            Console.WriteLine(true && true);
+            Console.WriteLine(true && false);
+            Console.WriteLine(false && true);
+            Console.WriteLine(false && false);
+
+            Console.WriteLine(true || true);
+            Console.WriteLine(true || false);
+            Console.WriteLine(false || true);
+            Console.WriteLine(false || false);
+
+
+            int number1 = 3 + 2;
+            int number2 = 3 + 2;
+            number1 = int.Parse(Console.ReadLine());
+            number2 = int.Parse(Console.ReadLine());
+            int number = number1 + number2;
+            Console.WriteLine(number);
+
+            if(number1 % 2 == 0 && number2 < 0) {
+                Console.WriteLine("a가짝수이고b가0보다작음");
+            }
+            else if(number1 % 2 == 0 && number2 < 3) {
+                Console.WriteLine("a가짝수이고b가3보다작음");
+            }
+            else if(number1 % 2 == 1 && number2 < 5) {
+                Console.WriteLine("a가홀수이고b가5보다작음");
+            }
+            else {
+                Console.WriteLine("else");
+            }*/
+
+
+            /* int input = 1;
+             input = int.Parse(Console.ReadLine());*/
+            /*while(input>=0) {
+                Console.WriteLine("0");
+                input--;
+            }*/
+
+            //for(int i = 1; i <= 5; i++) {
+            //    for(int j = 1; j <= i; j++) {
+            //        Console.Write("*");
+            //    }
+            //    Console.Write("\n");
+            //}
+
+            //Console.Write("\n");
+
+            //for(int i = 5; i >= 1; i--) {
+            //    for(int j = i; j >0; j--) {
+            //        Console.Write("*");
+            //    }
+            //    Console.Write("\n");
+            //}
+
+            //Console.Write("\n");
+
+            //for(int i = 1; i <= 5; i++) {
+            //    for(int j = 1; j <= 5 - i; j++) {
+            //        Console.Write(" ");
+            //    }
+            //    for(int k = 1; k <= i; k++) {
+            //        Console.Write("*");
+            //    }
+            //    Console.Write("\n");
+            //}
+
+            //Console.Write("\n");
+
+            //for(int i = 1; i <= 5; i++) {
+
+            //    for(int j = 0; j < i; j++) {
+            //        Console.Write(" ");
+            //    }
+            //    for(int k = 5; k >= i; k--) {
+            //        Console.Write("*");
+            //    }
+            //    Console.Write("\n");
+            //}
+
+            //Console.Write("\n");
+
+            //for(int i = 1; i < 11; i += 2) {
+            //    for(int j = 1; j <= i; j++) {
+            //        Console.Write("*");
+            //    }
+            //    for(int k = 0; k < 4; k++) {
+
+            //    }
+            //    Console.Write("\n");
+            //}
+
+            //OddOrEven(5);
+            //Console.WriteLine(OddOrEven(5) ? "짝수" : "홀수");
+            //int number1 = int.Parse(Console.ReadLine());
+            //string str = Console.ReadLine();
+            //int number2 = int.Parse(Console.ReadLine());
+            //int result = 0;
+            //if(str == "+") {
+            //    result = add(number1, number2);
+            //    Console.WriteLine($"{number1} {str} {number2} = {result}");
+            //}
+            //else if(str == "-") {
+            //    result = sub(number1, number2);
+            //    Console.WriteLine($"{number1} {str} {number2} = {result}");
+            //}
+            //else if(str == "*") {
+            //    result = mul(number1, number2);
+            //    Console.WriteLine($"{number1} {str} {number2} = {result}");
+            //}
+            //else if(str == "/") {
+            //    result = dev(number1, number2);
+            //    Console.WriteLine($"{number1} {str} {number2} = {result}");
+            //}
+            //else {
+            //    Console.WriteLine("기호를 잘못입력");
+            //}
+
+            int a = int.Parse(Console.ReadLine());
+            repeat(a);
+        }
+
+        private static void one(int a) {
+            Console.WriteLine(a + 2);
+
+        }
+        private static void two(int a) {
+            Console.WriteLine(a - 2);
+        }
+        private static void three(int a) {
+            Console.WriteLine(a * 2);
+        }
+        private static void four(int a) {
+            Console.WriteLine(a / 2);
+        }
+        private static bool OddOrEven(int a) {
+            if(a % 2 == 0) {
+                return true;
+            }
+            else {
+                return false;
+            }
+        }
+        private static int add(int a, int b) {
+            return a + b;
+        }
+        private static int sub(int a, int b) {
+            return a - b;
+        }
+        private static int mul(int a, int b) {
+            return a * b;
+        }
+        private static int dev(int a, int b) {
+            return a / b;
+        }
+        private static void repeat(int a) {
+            for(int i = 0; i < a; i++) {
+                Console.WriteLine("mmm");
+            }
         }
     }
 }

@@ -1,0 +1,16 @@
+C:\Users\admin\Desktop\dksgudwn\CSharpStudy\homeWork\bin\Debug\net5.0\homeWork.exe
+C:\Users\admin\Desktop\dksgudwn\CSharpStudy\homeWork\bin\Debug\net5.0\homeWork.deps.json
+C:\Users\admin\Desktop\dksgudwn\CSharpStudy\homeWork\bin\Debug\net5.0\homeWork.runtimeconfig.json
+C:\Users\admin\Desktop\dksgudwn\CSharpStudy\homeWork\bin\Debug\net5.0\homeWork.runtimeconfig.dev.json
+C:\Users\admin\Desktop\dksgudwn\CSharpStudy\homeWork\bin\Debug\net5.0\homeWork.dll
+C:\Users\admin\Desktop\dksgudwn\CSharpStudy\homeWork\bin\Debug\net5.0\ref\homeWork.dll
+C:\Users\admin\Desktop\dksgudwn\CSharpStudy\homeWork\bin\Debug\net5.0\homeWork.pdb
+C:\Users\admin\Desktop\dksgudwn\CSharpStudy\homeWork\obj\Debug\net5.0\homeWork.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\dksgudwn\CSharpStudy\homeWork\obj\Debug\net5.0\homeWork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\dksgudwn\CSharpStudy\homeWork\obj\Debug\net5.0\homeWork.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\dksgudwn\CSharpStudy\homeWork\obj\Debug\net5.0\homeWork.AssemblyInfo.cs
+C:\Users\admin\Desktop\dksgudwn\CSharpStudy\homeWork\obj\Debug\net5.0\homeWork.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\dksgudwn\CSharpStudy\homeWork\obj\Debug\net5.0\homeWork.dll
+C:\Users\admin\Desktop\dksgudwn\CSharpStudy\homeWork\obj\Debug\net5.0\ref\homeWork.dll
+C:\Users\admin\Desktop\dksgudwn\CSharpStudy\homeWork\obj\Debug\net5.0\homeWork.pdb
+C:\Users\admin\Desktop\dksgudwn\CSharpStudy\homeWork\obj\Debug\net5.0\homeWork.genruntimeconfig.cache
