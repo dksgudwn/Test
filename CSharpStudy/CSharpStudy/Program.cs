@@ -160,7 +160,7 @@ namespace CSharpStudy {
             //숫자를 입력받았을때 음식을 출력하고
             //비어있게 되었다라는 결과값도 출력하라
 
-            string[] food = new string[] { "떡복이", "김밥", "라면", "라뽁이" };
+            /*string[] food = new string[7] { "떡복이", "김밥", "라면", "라뽁이", "", "", "" };
 
             Console.WriteLine("1번: 떡복이, 2번: 김밥, 3번: 라면, 4번: 라뽁이");
             int input = int.Parse(Console.ReadLine());
@@ -171,7 +171,20 @@ namespace CSharpStudy {
             food[5] = Console.ReadLine();
             Console.WriteLine("음식7 입력");
             food[6] = Console.ReadLine();
-            Console.WriteLine($"1번: {food[0]}, 2번: {food[1]}, 3번: {food[2]}, 4번: {food[3]}, 5번: {food[4]}, 6번: {food[5]}, 7번: {food[6]}");
+            Console.WriteLine($"1번: {food[0]}, 2번: {food[1]}, 3번: {food[2]}, 4번: {food[3]}, 5번: {food[4]}, 6번: {food[5]}, 7번: {food[6]}");*/
+            /*string name;
+            string year;
+            string info;
+
+            name = Console.ReadLine();
+            year = Console.ReadLine();
+            info = Console.ReadLine();
+
+            Console.WriteLine($"{name}");
+            Console.WriteLine($"{2023 - Convert.ToInt32(year)}");
+            Console.WriteLine($"{info}");
+            Console.WriteLine(@"ㅁ");
+            string[] arr = new string[] { name, year, info };*/
         }
     }
 }
